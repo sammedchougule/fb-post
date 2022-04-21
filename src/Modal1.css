@@ -1,0 +1,121 @@
+.modalBackground {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.modalContainer {
+    width: 500px;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px 0 25px;
+}
+
+.modalTop {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #eff2f5;
+}
+
+.modalTop>.modalTitle {
+    display: flex;
+}
+
+.modalContainer .titleCloseBtn {
+    margin-left: 250px;
+    background-color: red;
+    font-size: medium;
+    color: white;
+    border-radius: 5px;
+}
+
+.modalContainer .titleCloseBtn:hover {
+    background-color: rgba(225, 9, 9, 0.89);
+}
+
+.modalAvatar {
+    display: flex;
+    margin-top: 15px;
+}
+
+.modalAvatar .modalId {
+    display: flex;
+    font-size: large;
+    margin-left: 10px;
+    margin-top: 6px;
+    color: gray;
+}
+
+.modalContainer .body input {
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+    line-height: 1.4em;
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #f7f8fa;
+}
+
+form {
+    margin: 10px 5px 0px 0px;
+}
+
+.body img {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 150px;
+}
+
+.body .viewImage input {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    padding: 10px;
+}
+
+.modal__input {
+    display: flex;
+    width: 100%;
+    padding: 10px 00px 50px 10px;
+}
+
+Button {
+    display: none;
+}
+
+.modal__bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.modal__option {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.modal__option:hover {
+    background-color: #eff2f5;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.footer Button {
+    margin-bottom: 20px;
+    color: white;
+    background-color: #2e81f4;
+    padding-right: 230px;
+    padding-left: 230px;
+}
+
+.footer Button:hover {
+    background-color: #0563e7;
+}
